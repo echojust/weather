@@ -1,0 +1,29 @@
+{
+    "name": "echoJust/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "echoJust",
+            "email": "huangzhandou@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^6.5",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Echojust\\Weather\\": "src"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Echojust\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
