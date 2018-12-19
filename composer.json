@@ -1,10 +1,10 @@
 {
-    "name": "echoJust/weather",
+    "name": "echojust/weather",
     "description": "A weather SDK",
     "license": "MIT",
     "authors": [
         {
-            "name": "echoJust",
+            "name": "echojust",
             "email": "huangzhandou@gmail.com"
         }
     ],
